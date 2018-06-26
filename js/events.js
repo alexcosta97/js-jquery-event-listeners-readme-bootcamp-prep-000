@@ -21,5 +21,7 @@ function frameIt()
 
 function pressIt()
 {
-  $
+  $('form input:first-child').on('keydown', function(key){
+    if(key.which === )
+  })
 }
