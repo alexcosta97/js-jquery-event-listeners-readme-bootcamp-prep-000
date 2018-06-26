@@ -18,3 +18,8 @@ function frameIt()
       alert('Hey!');
     })
   }
+
+function pressIt()
+{
+  $
+}
