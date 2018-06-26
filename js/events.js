@@ -3,6 +3,7 @@
 $(document).ready(function(){
   getIt();
   frameIt();
+  pressIt();
 });
 
 function frameIt()
@@ -22,6 +23,9 @@ function frameIt()
 function pressIt()
 {
   $('form input:first-child').on('keydown', function(key){
-    if(key.which === )
+    if(key.which === 71)
+    {
+      alert("You've pressed the G key");
+    }
   })
 }
