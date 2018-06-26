@@ -27,5 +27,6 @@ function pressIt()
     {
       alert("You've pressed the G key");
     }
-  })
+  });
 }
+
